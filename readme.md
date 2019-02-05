@@ -10,7 +10,7 @@ mA= (1/k)*ones(k,1);
 
 res = get2RTLB(A,A,mA,mA,200,50)
 
-_You should get res = 0._
+_You should get res = 0, or something close to zero._
 
 _Next do the following:_
 
