@@ -218,8 +218,8 @@ function dist = compareRealDistributions(vA,vB,mA,mB)
   % Only care about the places where cmA, cmB change
   sorted_all = union(cmA,cmB);
   
-  %next stop prevents bugs from rounding errors, needs Matlab to run
-  %sorted_all = uniquetol(sorted_all, 10^(-10));
+  %next step prevents bugs from rounding errors, needs Matlab to run
+  sorted_all = uniquetol(sorted_all, 10^(-10));
   sorted_all = [0;sorted_all];
   
   summand = 0;
