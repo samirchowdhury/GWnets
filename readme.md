@@ -2,6 +2,8 @@
 Chowdhury, S. and Mémoli, F. The Gromov-Wasserstein distance between networks and stable network invariants. 2018.
 https://arxiv.org/abs/1808.04337
 
+mexEMD code from https://github.com/gpeyre/2016-ICML-gromov-wasserstein
+
 _GWnets is a Matlab/Octave package for computing lower bounds on the Gromov-Wasserstein distance between networks._
 
 _To run a simple example, try this (after loading the directories into Matlab)._
