@@ -24,3 +24,5 @@ res = emd2RTLB(A,B,mA,mB)
 res = emd2RTLB(B,A,mB,mA)  
 
 _You should get the same result in both cases._
+
+### Real Data
