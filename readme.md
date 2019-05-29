@@ -26,3 +26,7 @@ res = emd2RTLB(B,A,mB,mA)
 _You should get the same result in both cases._
 
 ### Real Data
+
+_To play with some real data, look at the migration dataset in data/worldbankdata/. 
+The script buildResMigration.m can be used to compute pairwise distances
+between migration networks._
